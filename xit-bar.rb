@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 EDITOR="#{ENV['HOME']}/bin/subl"
-FILENAME=File.expand_path('~/.todo.xit')
+FILENAME=File.expand_path('~/.test.xit')
 
 ##
 ## data model
@@ -90,7 +90,7 @@ class Parser
   end
 
   def todos_count
-    @groups.reduce(0) { |c,g| c + g.todo_count }
+    [@groups.reduce(0) { |c,g| c + g.todo_count }, 50].min
   end
 
   def active?
