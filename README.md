@@ -1,6 +1,6 @@
 # xit-bar
 
-![preview](preview_.png)
+![preview](_preview.png)
 
 Swiftbar (https://github.com/swiftbar/SwiftBar) plugin for managing a xit TODO file (https://xit.jotaen.net/)
 
@@ -20,4 +20,4 @@ Clicking on a todo will first set it to 'being worked on', then again will 'comp
 
 If you have any active tasks, the icon will turn green:
 
-![preview](preview-active_.png)
+![preview](_preview-active.png)
