@@ -21,3 +21,21 @@ Clicking on a todo will first set it to 'being worked on', then again will 'comp
 If you have any active tasks, the icon will turn green:
 
 ![preview](_preview-active.png)
+
+### Sample .xit file
+
+```
+[ ] uncategorized todo
+
+HIGH PRIORITY
+[ ] do something
+[ ] do something else
+[ ] i'm working on it currently
+[x] already done
+
+LOW PRIORITY
+[x] done
+[x] also done
+[ ] working on it
+[ ] todo
+```
