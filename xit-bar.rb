@@ -1,7 +1,9 @@
 #!/usr/bin/env ruby
 
+require 'fileutils'
+
 EDITOR="#{ENV['HOME']}/bin/subl"
-FILENAME=File.expand_path('~/.test.xit')
+FILENAME=File.expand_path('~/.todo.xit')
 
 ##
 ## data model
@@ -197,6 +199,7 @@ end
 ##
 ## parse
 ##
+FileUtils.touch(FILENAME) unless File.exist?(FILENAME)
 lines = File.read(FILENAME).split("\n")
 
 parser = Parser.new
