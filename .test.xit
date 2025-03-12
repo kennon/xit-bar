@@ -3,11 +3,11 @@
 HIGH PRIORITY
 [ ] do something
 [ ] do something else
-[ ] i'm working on it currently
+[@] i'm working on it currently
 [x] already done
 
 LOW PRIORITY
 [x] done
 [x] also done
-[ ] working on it
+[@] working on it
 [ ] todo
